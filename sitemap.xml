@@ -8,7 +8,10 @@
 
 <url>
   <loc>http://www.shubhamchaudhary.in/</loc>
-  <lastmod>2013-12-30T19:17:22+00:00</lastmod>
+  <changefreq>daily</changefreq>
+</url>
+<url>
+  <loc>http://www.shubhamchaudhary.in/404.html</loc>
   <changefreq>daily</changefreq>
 </url>
 </urlset>
