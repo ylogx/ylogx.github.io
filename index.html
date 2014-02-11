@@ -52,7 +52,7 @@
 <!-- /SEO Ultimate -->
     
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
-    <link href="css/impress-demo.css" rel="stylesheet" />
+    <link href="css/impress-chaudhary.css" rel="stylesheet" />
     
     <link rel="shortcut icon" href="favicon.ico" />
 </head>
@@ -66,15 +66,18 @@
 
 <div id="impress">
 
-    <div id="start" class="step" data-x="100" data-y="1000" data-scale="5" data-rotate="1080">
+    <div id="start" class="step" data-x="-600" data-y="1000" data-scale="5" data-rotate="1080">
         <center>
             <img src="images/shubham-chaudhary-software-freedom-day.jpg" alt="I am Chaudhary." width="50%">
         </center>
-        <q>I <strong>Code</strong>, I <strong>Contribute</strong>, 
-        I <strong><a href="http://www.developfreedom.com/" target="_blank">blog</a></strong>, 
         </br>
-        Admit it this webpage is <strong>awesome</strong>.
-       </br><span> <strong><a href="http://www.developfreedom.com/" target="_blank">Click here for the blog</a></strong> 
+        <q>I <strong class="positioning">Code</strong></br>
+        I <strong class="scaling"><a href="http://www.developfreedom.com/" target="_blank">blog</a></strong></br>
+        I <strong class="rotating">Contribute</strong>
+        </br>
+        <strong class="awesome">Admit it this webpage is awesome.</strong>
+        <!-- </br><span> <strong><a href="http://www.developfreedom.com/" target="_blank">Click here for the blog</a></strong> 
+        -->
         </span></q>
     </div>
 
@@ -133,14 +136,14 @@
             <img src="images/i-am-going-to-conf.kde.in-badge.png" alt="I am going to conf.kde.in" width="40%">
         </center>
         <span></br>
-            <strong><a href="http://about.shubhamchaudhary.in/" target="_blank">About Me</a></strong>
+            <strong><b class="scaling"><a href="http://about.shubhamchaudhary.in/" target="_blank">About Me</a></b></strong>
         </span>
     </div>
 
-    <div id="contact" class="step" data-x="7500" data-y="500" data-scale="5" data-rotate="237">
-        <span class="try">Talk to me, send me a mail</span>
+    <div id="contact" class="step" data-x="8500" data-y="500" data-scale="5" data-rotate="237">
+        <span class="try">Send me a mail here. Click here</span>
         <span></br>
-            <strong><a href="mailto:shubham.chaudhary@kdemail.net" target="_blank">Click here to shoot a mail: shubham.chaudhary[at]kdemail.net</a></strong>.
+            <strong class="scaling"><a href="mailto:shubham.chaudhary@kdemail.net" target="_blank">shubham.chaudhary[at]kdemail.net</a></strong>
         </span>
     </div>
 
@@ -225,14 +228,13 @@
     </div>
 
     <div id="college" class="step" data-x="3000" data-y="-1500" data-scale="2" data-rotate="87">
-        <span class="try">I am doing B.E. in computer science and engineering at <strong><a href="http://uiet.puchd.ac.in" target="_blank">UIET, Panjab University, Chandigarh</a></strong>.</span>
+        <span class="try">I am doing B.E. in computer science and engineering at <strong><b class="positioning"><a href="http://uiet.puchd.ac.in" target="_blank">UIET, Panjab University, Chandigarh.</a></b></strong></span>
     </div>
 
-    <div id="social" class="step" data-x="-3700" data-y="-1300" data-scale="2" data-rotate="560">
-        <q>Click here for my <a href="http://twitter.com/ChaudharySimply" target="_blank">twitter</a>
-            account</q></br>
-        <q>and this is my <a href="http://www.facebook.com/iShubhamCh" target="_blank">facebook</a>
-            page.</q></br>
+    <!-- <div id="social" class="step" data-x="-3700" data-y="-1300" data-rotate="560" data-scale="2"> -->
+
+    <div id="social" class="step" data-x="-3700" data-y="-1300" data-rotate="560" data-scale="2">
+        <q>Click here for my <b class="rotating"><a href="http://twitter.com/ChaudharySimply" target="_blank">twitter</a></b> account</q></br>
         <!-- RSS feed code start ->
         <div id="rssincl-box-container-815856"></div>
             <script type="text/javascript">
@@ -245,6 +247,12 @@
         <!- RSS feed code end -->
         <!-- PS: I hate facebook. -->
 
+    </div>
+
+    <div id="facebook" class="step" data-x="6200" data-y="4300" data-z="-100" data-rotate-x="-40" data-rotate-y="10" data-scale="2">
+        <q>and this is my <b class="positioning"><a href="http://www.facebook.com/iShubhamCh" target="_blank">facebook</a></b> page.</q></br>
+        <p></br><span class="have">Have</span> <span class="you">you</span> <span class="noticed">noticed</span> <span class="its">it's</span> <span class="in">in</span> <b>3D<sup>*</sup></b>?</p>
+        <span class="footnote">* beat that ;)</span>
     </div>
 
     <div id="overview" class="step" data-x="1800" data-y="600" data-scale="10">
@@ -263,6 +271,7 @@ if ("ontouchstart" in document.documentElement) {
 </script>
 
 <script src="js/impress.js"></script>
+<!-- https://raw.github.com/bartaz/impress.js/master/js/impress.js -->
 <script>impress().init();</script>
 
 <!-- Start Copyright Section ->
@@ -277,12 +286,18 @@ if ("ontouchstart" in document.documentElement) {
 </footer>
 <!- End Copyright Section -->
 
-<!-- Start of StatCounter Code for Default Guide ->
+<!-- Start of StatCounter Code ->
 <a href="http://www.developfreedom.com" target="_blank" title="Develop Freedom"><img border="0" alt="Go to my blog Develop Freedom" src="http://mycounter.tinycounter.com/index.php?user=shubhamchaudhary"></a>
-<!- End of StatCounter Code for Default Guide -->
+<!- End of StatCounter-->
 
+<!-- social, tracking etc, ignore. yes, I know... wanna fight about it? -->
 
-<!-- yes, I know... wanna fight about it? -->
+<!--
+<div style="position: fixed; bottom: 10px; left: 10px; pointer-events: auto;">
+    <a href="http://twitter.com/share" class="twitter-share-button" data-text="Just saw shubhamchaudhary.in" data-url="http://www.shubhamchaudhary.com"></a>
+    <script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+</div>
+-->
 <script>
   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
