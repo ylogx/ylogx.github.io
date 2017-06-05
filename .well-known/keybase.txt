@@ -1,0 +1,54 @@
+==================================================================
+https://keybase.io/chaudhary
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://shubham.chaudhary.xyz
+  * I am chaudhary (https://keybase.io/chaudhary) on keybase.
+  * I have a public key ASD1Ch1-5EWG9Sr7RwFNaIGhe-WSVzAlJLv_FNHByL0c2Ao
+
+To do so, I am signing this object:
+
+{
+    "body": {
+        "key": {
+            "eldest_kid": "0101a30a0cebc5d73f60efe81529abf5632487d197efe56e7cd68c41b6c9f81904dc0a",
+            "host": "keybase.io",
+            "kid": "0120f50a1d7ee44586f52afb47014d6881a17be59257302524bbff14d1c1c8bd1cd80a",
+            "uid": "580a4f28fb48917cd711b7437981f019",
+            "username": "chaudhary"
+        },
+        "service": {
+            "hostname": "shubham.chaudhary.xyz",
+            "protocol": "http:"
+        },
+        "type": "web_service_binding",
+        "version": 1
+    },
+    "client": {
+        "name": "keybase.io go client",
+        "version": "1.0.23"
+    },
+    "ctime": 1496691313,
+    "expire_in": 504576000,
+    "merkle_root": {
+        "ctime": 1496691285,
+        "hash": "1ef1ad901feee361d01b08f09e4d14a31264ca7194b6eeee812e4e69475611ff72cb461effa03afa379b0769f93f6f6152ced926af59f159d9dec941130b818c",
+        "seqno": 1145120
+    },
+    "prev": "91cafeb9141058be6e48d6201b513743ca3e8a3b4f4f054967a54a8d34fa2c3f",
+    "seqno": 6,
+    "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg9QodfuRFhvUq+0cBTWiBoXvlklcwJSS7/xTRwci9HNgKp3BheWxvYWTFAv57ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTAxYTMwYTBjZWJjNWQ3M2Y2MGVmZTgxNTI5YWJmNTYzMjQ4N2QxOTdlZmU1NmU3Y2Q2OGM0MWI2YzlmODE5MDRkYzBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwZjUwYTFkN2VlNDQ1ODZmNTJhZmI0NzAxNGQ2ODgxYTE3YmU1OTI1NzMwMjUyNGJiZmYxNGQxYzFjOGJkMWNkODBhIiwidWlkIjoiNTgwYTRmMjhmYjQ4OTE3Y2Q3MTFiNzQzNzk4MWYwMTkiLCJ1c2VybmFtZSI6ImNoYXVkaGFyeSJ9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoic2h1YmhhbS5jaGF1ZGhhcnkueHl6IiwicHJvdG9jb2wiOiJodHRwOiJ9LCJ0eXBlIjoid2ViX3NlcnZpY2VfYmluZGluZyIsInZlcnNpb24iOjF9LCJjbGllbnQiOnsibmFtZSI6ImtleWJhc2UuaW8gZ28gY2xpZW50IiwidmVyc2lvbiI6IjEuMC4yMyJ9LCJjdGltZSI6MTQ5NjY5MTMxMywiZXhwaXJlX2luIjo1MDQ1NzYwMDAsIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNDk2NjkxMjg1LCJoYXNoIjoiMWVmMWFkOTAxZmVlZTM2MWQwMWIwOGYwOWU0ZDE0YTMxMjY0Y2E3MTk0YjZlZWVlODEyZTRlNjk0NzU2MTFmZjcyY2I0NjFlZmZhMDNhZmEzNzliMDc2OWY5M2Y2ZjYxNTJjZWQ5MjZhZjU5ZjE1OWQ5ZGVjOTQxMTMwYjgxOGMiLCJzZXFubyI6MTE0NTEyMH0sInByZXYiOiI5MWNhZmViOTE0MTA1OGJlNmU0OGQ2MjAxYjUxMzc0M2NhM2U4YTNiNGY0ZjA1NDk2N2E1NGE4ZDM0ZmEyYzNmIiwic2Vxbm8iOjYsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RALJ4i0mPF4AW57rMUNOKCH0ebFQzDOyOGj7Wa7jVKCE9bt1kQHq2+HyKF8dKCZ0YJHJk0mmasMbrJhKsfU+iBB6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIBrX0z4NgPatNEe50tsI3enE9g6eUBZT6S+fD+m3e9Tpo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/chaudhary
+
+==================================================================
