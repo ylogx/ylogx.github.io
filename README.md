@@ -1,5 +1,5 @@
 website
 =======
 
-http://shubham.chaudhary.xyz  
+https://shubham.chaudhary.xyz  
 [chaudhary.xyz](http://chaudhary.xyz)  
