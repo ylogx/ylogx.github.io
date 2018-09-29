@@ -6,17 +6,17 @@
     http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
 
     <url>
-        <loc>http://shubham.chaudhary.xyz/</loc>
+        <loc>https://shubham.chaudhary.xyz/</loc>
         <changefreq>weekly</changefreq>
     </url>
 
     <url>
-        <loc>http://shubham.chaudhary.xyz/file/shubham_chaudhary_resume.pdf</loc>
+        <loc>https://shubham.chaudhary.xyz/file/shubham_chaudhary_resume.pdf</loc>
         <changefreq>weekly</changefreq>
     </url>
 
     <url>
-        <loc>http://shubham.chaudhary.xyz/blog/</loc>
+        <loc>https://shubham.chaudhary.xyz/blog/</loc>
         <changefreq>daily</changefreq>
     </url>
 
