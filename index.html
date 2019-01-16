@@ -52,6 +52,7 @@
 <link rel="shortcut icon" href="favicon.ico" />
 <!--<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">-->
 <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+<!--<link rel="stylesheet" href="/assets/css/bootstrap-theme.min.css">-->
 
 <style>
 /*
@@ -79,16 +80,20 @@ div.body {
 .fineprint {
   font-size: 70%
 }
+/*a {*/
+    /*color: inherit;*/
+/*}*/
 </style>
 </head>
 
 <body>
-<div class='main-body container'>
-    <div class="row name-heading">
+<div class="full-body container-fluid mr-3 ml-3" style="margin-left: 5%; margin-right: 5%">
+<div class='main-body'>
+    <div class="row text-center name-heading">
         <h1>Shubham Chaudhary</h1>
     </div>
 
-<div class="row links" id='links'>
+<div class="row text-center links" id='links'>
 <a class="col" href="https://shubham.chaudhary.xyz/blog/">Blog</a> &bull;
 <a class="col" href="https://www.github.com/ylogx">Github</a> &bull;
 <a class="col" href="https://www.twitter.com/ylogx">Twitter</a> &bull;
@@ -100,49 +105,72 @@ div.body {
    href="mailto:me@shubhamchaudhary.in?bcc=shubhamchaudhary92@gmail.com&Subject=Coming%20from%20website&Body=Forwarded%20from%20shubhamchaudharyin" target="_blank">Mail</a>
 </div>
 
+<div class="container-fluid">
 <div id='work' class='row section'>
-<h2> <a href='#work'>Work</a> </h2>
+<h2 class="row"> <a href='#work'>Work</a> </h2>
+    <div  class="row">
   I work in the Machine Learning team of <a href='https://engineering.zomato.com'>Zomato</a>. I have worked on projects
   involving NLP, deep learning based models for image classification &amp; image quality assesement,
   scalable duplicate detection for text documents and images, restaurant rating
   algorithm and user credibility.
+    </div>
 </div>
 
 
 <div id='publications' class='row section'>
-<h2> <a href='#publications'>Publications</a> </h2>
+<h2 class="row"> <a href='#publications'>Publications</a> </h2>
+    <div  class="row">
   <b>Review Highlights: Opinion Mining on Reviews</b> <i>IML17, ACM</i><br/>
-  A. Kushwaha &amp; S. Chaudhary <i>October 2017, Liverpool United Kingdom</i><br/>
-  A hybrid model for rule selection in aspect extraction. Reduce the aspect extraction noise of syntactic rule approach by
+    </div>
+    <div  class="row">
+    A. Kushwaha &amp; S. Chaudhary <i>October 2017, Liverpool United Kingdom</i><br/>
+    </div>
+    <div  class="row">
+    A hybrid model for rule selection in aspect extraction. Reduce the aspect extraction noise of syntactic rule approach by
   using a multi-label classifier to select syntactic rules based on the sentence POS structure.<br/>
   DOI: <a href='https://doi.org/10.1145/3109761.3158385'>10.1145/3109761.3158385</a>
-  <br/> <br/>
+    </div>
+  <br/>
 
-  <b>Bus Boarding Event Detection using Smartphone Sensors</b> <i>COMSNET16, IEEE</i><br/>
-  S. Chaudhary, T. Kaur, N. Aggarwal, B. Raman, D. Bansal, K.K. Ramakrishnan <i>January 2016</i><br/>
-  A machine learning model for on body bus boarding activity detection using low power mobile device sensors -
+    <div  class="row">
+
+    <b>Bus Boarding Event Detection using Smartphone Sensors</b> <i>COMSNET16, IEEE</i><br/>
+    </div>
+    <div  class="row">
+
+    S. Chaudhary, T. Kaur, N. Aggarwal, B. Raman, D. Bansal, K.K. Ramakrishnan <i>January 2016</i><br/>
+    </div>
+    <div  class="row">
+
+    A machine learning model for on body bus boarding activity detection using low power mobile device sensors -
   accelerometer &amp; GSM location.<br/>
   DOI: <a href='https://doi.org/10.1109/COMSNETS.2016.7439930'>10.1109/COMSNETS.2016.7439930</a>
+    </div>
   <br/>
 </div>
 
 <div id='open' class='row section'>
-<h2> <a href='#open'>Open Source</a> </h2>
+<h2 class="row"> <a href='#open'>Open Source</a> </h2>
+    <div  class="row">
 I contribute to various projects on <a href='https://github.com/ylogx'>github</a> and also contributed to KDE in summer of code 2013.
+    </div>
 <br/>
+</div>
 </div>
 
 </div> <!-- main-body -->
 
-<div id='footer' class='row footer'>
+<div id='footer' class='row text-center footer'>
     <img alt='SO Flair' src="https://stackexchange.com/users/flair/3090119.png" height="25"/>
     <br/>
-    <div id='fineprint' class='fineprint'>
+    <div id='fineprint' class='text-muted fineprint'>
         This ultra fast fully responsive webpage is built with super secret next-generation technology<a href='https://www.w3.org/html/'>.</a>
         <br/>
         To learn how to build such beauty, visit the <a href="https://shubham.chaudhary.xyz/blog/">blog</a>.
     </div>
 </div>
+
+</div> <!-- full body -->
 
 <!-- Save yourself. Setup ublock origin and noscript. -->
 <script>
