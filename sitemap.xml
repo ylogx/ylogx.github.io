@@ -7,7 +7,6 @@
 
     <url>
         <loc>https://shubham.chaudhary.xyz/</loc>
-        <changefreq>weekly</changefreq>
     </url>
 
     <url>
@@ -17,52 +16,42 @@
 
     <url>
         <loc>https://shubham.chaudhary.xyz/blog/</loc>
-        <changefreq>daily</changefreq>
     </url>
 
     <url>
         <loc>http://fb.chaudhary.xyz/</loc>
-        <changefreq>weekly</changefreq>
     </url>
 
     <url>
         <loc>http://facebook.chaudhary.xyz/</loc>
-        <changefreq>weekly</changefreq>
     </url>
 
     <url>
         <loc>http://github.chaudhary.xyz/</loc>
-        <changefreq>weekly</changefreq>
     </url>
 
     <url>
         <loc>http://plus.chaudhary.xyz/</loc>
-        <changefreq>weekly</changefreq>
     </url>
 
     <url>
         <loc>http://quora.chaudhary.xyz/</loc>
-        <changefreq>weekly</changefreq>
     </url>
 
     <url>
         <loc>http://slideshare.chaudhary.xyz/</loc>
-        <changefreq>weekly</changefreq>
     </url>
 
     <url>
         <loc>http://stackoverflow.chaudhary.xyz/</loc>
-        <changefreq>weekly</changefreq>
     </url>
 
     <url>
         <loc>http://twitter.chaudhary.xyz/</loc>
-        <changefreq>weekly</changefreq>
     </url>
 
     <url>
         <loc>http://youtube.chaudhary.xyz/</loc>
-        <changefreq>weekly</changefreq>
     </url>
 
 </urlset>
