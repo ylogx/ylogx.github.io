@@ -11,47 +11,11 @@
 
     <url>
         <loc>https://shubham.chaudhary.xyz/file/shubham_chaudhary_resume.pdf</loc>
-        <changefreq>weekly</changefreq>
+        <!--<changefreq>weekly</changefreq>-->
     </url>
 
     <url>
         <loc>https://shubham.chaudhary.xyz/blog/</loc>
-    </url>
-
-    <url>
-        <loc>http://fb.chaudhary.xyz/</loc>
-    </url>
-
-    <url>
-        <loc>http://facebook.chaudhary.xyz/</loc>
-    </url>
-
-    <url>
-        <loc>http://github.chaudhary.xyz/</loc>
-    </url>
-
-    <url>
-        <loc>http://plus.chaudhary.xyz/</loc>
-    </url>
-
-    <url>
-        <loc>http://quora.chaudhary.xyz/</loc>
-    </url>
-
-    <url>
-        <loc>http://slideshare.chaudhary.xyz/</loc>
-    </url>
-
-    <url>
-        <loc>http://stackoverflow.chaudhary.xyz/</loc>
-    </url>
-
-    <url>
-        <loc>http://twitter.chaudhary.xyz/</loc>
-    </url>
-
-    <url>
-        <loc>http://youtube.chaudhary.xyz/</loc>
     </url>
 
 </urlset>
